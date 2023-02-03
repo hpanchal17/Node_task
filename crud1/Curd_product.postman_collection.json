@@ -1,0 +1,172 @@
+{
+	"id": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+	"name": "Curd_product",
+	"description": "",
+	"order": [
+		"e6547a8c-5c05-708f-dfcc-85a5f019c083",
+		"eb3c9f46-b7f3-f224-0ff0-247dbde77308",
+		"2e0ce3bf-fe21-1941-f090-a699ddb5b47e",
+		"73b54628-c5ae-f9f8-ddf0-f085a3216944",
+		"d488c20d-88ea-d18b-1a8e-57844a108241"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1675371062555,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2e0ce3bf-fe21-1941-f090-a699ddb5b47e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/product/6",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+			"data": [],
+			"dataMode": "raw",
+			"name": "getById",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675371463040,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"Demo 1\",\n\t\"lastName\": \"test\",\n\t\"mobileNumber\": \"2122313122\",\n\t\"email\": \"demo1@gmail.com\",\n\t\"department\": \"it\",\n\t\"salary\": \"1212\",\n\t\"designation\": \"software engineer\"\n\t\n}\n"
+		},
+		{
+			"id": "73b54628-c5ae-f9f8-ddf0-f085a3216944",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/product/8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+			"data": [],
+			"dataMode": "raw",
+			"name": "deleteByID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675371535980,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"username\":\"Jeet\"\n}"
+		},
+		{
+			"id": "d488c20d-88ea-d18b-1a8e-57844a108241",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/product/6",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+			"data": [],
+			"dataMode": "raw",
+			"name": "updatebyID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675371675298,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": " {\n        \"productName\": \"Notbook\",\n        \"qtyPerUnit\": 4,\n        \"unitPrice\": 10,\n        \"unitInStock\": 70,\n        \"discontinued\": 13,\n        \"categoryId\": 2\n    }"
+		},
+		{
+			"id": "e6547a8c-5c05-708f-dfcc-85a5f019c083",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/product/addProduct",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1675371220335,
+			"name": "Post",
+			"description": "",
+			"collectionId": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+			"responses": [],
+			"rawModeData": " {\n        \"productName\": \"Notbook\",\n        \"qtyPerUnit\": 4,\n        \"unitPrice\": 10,\n        \"unitInStock\": 70,\n        \"discontinued\": 13,\n        \"categoryId\": 2\n    }"
+		},
+		{
+			"id": "eb3c9f46-b7f3-f224-0ff0-247dbde77308",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/product",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "33a33cd7-af97-eed5-5e32-75fa7eef3148",
+			"data": [],
+			"dataMode": "raw",
+			"name": "RetriveAllData",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1675371265979,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"firstName\": \"Demo 2\",\n\t\"lastName\": \"test\",\n\t\"mobileNumber\": \"2122313122\",\n\t\"email\": \"demo2@gmail.com\",\n\t\"department\": \"it\",\n\t\"salary\": \"1212\",\n\t\"designation\": \"software engineer\"\n\t\n}\n"
+		}
+	]
+}
